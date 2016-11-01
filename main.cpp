@@ -14,10 +14,10 @@
 using namespace stl;
 
 void visualize_polydata(vtkSmartPointer<vtkPolyData> polyData) {
-  // Visualize
+
   vtkSmartPointer<vtkPolyDataMapper> mapper =
     vtkSmartPointer<vtkPolyDataMapper>::New();
-  mapper->SetInputData(polyData); //Connection(polyData->GetOutputPort());
+  mapper->SetInputData(polyData);
  
   vtkSmartPointer<vtkActor> actor = vtkSmartPointer<vtkActor>::New();
   actor->SetMapper(mapper);
