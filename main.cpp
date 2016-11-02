@@ -67,8 +67,8 @@ polydata_from_triangular_mesh(const triangular_mesh& mesh) {
     vtkSmartPointer<vtkPolyData>::New();
  
   // Add the geometry and topology to the polydata
-  polyData->SetPoints ( points );
-  polyData->SetPolys ( triangles );
+  polyData->SetPoints(points);
+  polyData->SetPolys(triangles);
 
   return polyData;
 }
