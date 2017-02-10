@@ -1,5 +1,6 @@
 *~
-*.txt
+CMakeLists.txt
+CMakeCache.txt
 Makefile
 cmake_install.cmake
 main.app/*
